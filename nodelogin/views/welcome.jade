@@ -1,0 +1,10 @@
+extends ./layout.jade
+	
+block content
+	h1 안녕하세요
+	div #{msg}
+	br 
+	div 
+		a(href='/auth/logout') #{logout}	
+	div 
+		a(href='/auth/login') #{login}

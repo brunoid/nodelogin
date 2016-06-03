@@ -1,0 +1,15 @@
+extends ../layout.jade
+	
+block content	
+	h1 login페이지	
+		form(action='/auth/login' method='post')
+			div 
+				input(type='text' name='email' placeholder='이메일') 
+			div
+				input(type='password' name='password' placeholder='비밀번호')
+			div
+				input(type='submit' value='로그인하기')
+
+	a(href='/auth/register') 회원가입하기
+
+

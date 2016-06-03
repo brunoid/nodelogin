@@ -1,0 +1,15 @@
+extends ../layout.jade
+	
+block content	
+	h1 회원가입 페이지	
+		form(action='/auth/register' method='post')
+			div 
+				input(type='text' name='email' placeholder='이메일') 
+			div
+				input(type='password' name='password' placeholder='비밀번호')
+			div
+				input(type='text' name='nickname' placeholder='유저이름')
+			div
+				input(type='submit' value='회원등록하기')
+
+
