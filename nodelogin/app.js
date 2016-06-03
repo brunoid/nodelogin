@@ -44,4 +44,3 @@ app.use('/auth', auth);
 app.listen(3000, function(){
 	console.log('server is listen');
 });
-// 192.168.211.48
